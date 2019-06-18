@@ -1,0 +1,19 @@
+# vs2013 solution
+*.opensdf
+*.sdf
+*.suo
+
+# - .vcxproj related
+*.user
+
+# generate file
+*.obj
+*.log
+*.tlog
+*.idb
+*.pdb
+
+
+
+build/*
+!build/readme.md
