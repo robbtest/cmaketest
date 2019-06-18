@@ -83,7 +83,7 @@ int main(int argc, char** argv)
 
 	std::vector<std::string> szVecStr = { "aaa", "bbb", "ccc", "ddd" };
 	std::cout << typeid(szVecStr).name() << std::endl;
-	std::sort(szVecStr.begin(), szVecStr.end(), std::greater<std::string>());
+	//std::sort(szVecStr.begin(), szVecStr.end(), std::greater<std::string>());
 	for (auto& it : szVecStr)
 	{
 		std::cout << it << " ";
