@@ -9,7 +9,7 @@ set(MODULE_LIST
 )
 
 set(PACKAGE_LIST
-	dtype
+	freeimage
 )
 
 # open folder filter
