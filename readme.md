@@ -16,6 +16,11 @@ cd <root_dir>
 cd build
 cmake -G "CodeBlocks - Unix Makefiles" ..
 # cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" .
+
+# xcode
+cd <root_dir>
+cd build
+cmake -G "Xcode" ..
 ```
 
 ### git manager
