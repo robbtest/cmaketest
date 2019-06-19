@@ -15,7 +15,7 @@ cmake -G "Visual Studio 12 2013 Win64" ..
 cd <root_dir>
 cd build
 cmake -G "CodeBlocks - Unix Makefiles" ..
-# cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" .
+# cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" ..
 
 # xcode
 cd <root_dir>
